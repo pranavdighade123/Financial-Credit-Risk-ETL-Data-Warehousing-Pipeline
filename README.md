@@ -2,7 +2,9 @@
 Project Overview
 This project demonstrates a production-grade ETL (Extract, Transform, Load) pipeline designed to process large-scale financial data. The system ingests 2.2 million records of loan data, performs rigorous data quality checks, and loads the refined data into an Oracle Star Schema for risk analytics.
 
+
 The architecture mimics enterprise tools like IBM DataStage by implementing a "Reject Link" logic for data quality and an "Audit Log" for job control.
+
 
 Technical Stack
 Language: Python 3.12 (Pandas, SQLAlchemy)
@@ -12,6 +14,8 @@ Database: Oracle Database XE (SQL, PL/SQL)
 Orchestration: Unix/Bash Scripting
 
 Driver: oracledb (Thin Mode)
+
+
 
 Key Architecture Features
 1. High-Volume Processing (Memory Management)
